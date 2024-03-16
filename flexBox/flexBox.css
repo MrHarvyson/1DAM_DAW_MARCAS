@@ -1,0 +1,22 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.cabecera img {
+    width: 300px;
+    height: auto;
+}
+.menu {
+    text-align: right;
+}
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+.menu ul li {
+    display: inline-block;
+}
