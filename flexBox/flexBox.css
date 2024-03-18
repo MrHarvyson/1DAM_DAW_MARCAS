@@ -1,0 +1,28 @@
+
+.cabeceraprincipal{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}    
+    
+img{
+    width: 400px; 
+    height: 150px;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+    
+.menuprincipal{
+    display: flex;
+    height: 130px;
+    width: 350px;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+li{
+    display: inline;
+    width: 180px;
+    padding: 5px;
+}
+    
