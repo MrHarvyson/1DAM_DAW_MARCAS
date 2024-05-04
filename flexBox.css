@@ -1,0 +1,170 @@
+body{
+    color: gray;   
+}
+
+.seccion_inicio{
+    background-color: rgba(217,217,217,255);
+    height: 100vh; 
+    padding: 0 100px; 
+}
+
+.menu ul{
+    display:flex;
+    gap: 20px;   
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color:rgba(95, 159, 199, 0.823);
+
+}
+
+.menu{
+    margin-right: 80px;
+    color: gray;
+  
+}
+
+.menu a:hover{
+    color:rgba(95, 159, 199, 0.823);
+    font-weight: bold;
+}
+
+.menu li{
+    margin-right: 100px;
+    padding: 5px;
+    font-size: 20px;
+   
+}
+
+.menu img{
+    height: 150px;
+    width: 150px;
+}
+
+.dudas {
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    background-color: rgba(95, 159, 199, 0.823);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 50px; 
+  }
+
+  .info{
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    background-color: rgba(95, 159, 199, 0.823);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.botones{
+    margin-top: 100px;
+    margin-left: 120px;
+ }
+
+.inicio{
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+.inicio h1{
+    font-size: 90px;
+    font-weight: bold;
+    color:gray;
+}
+
+.inicio h2{
+    font-size: 29px;
+    font-weight: bold;
+    color:gray;
+}
+
+.logo strong{
+    color:gray;
+    font-size: 22px;
+}
+
+.inicio span{
+    color:rgba(95, 159, 199, 0.823);
+}
+
+
+
+    /* 2ºPARTE */
+
+.seccion_cursos{
+    padding: 100px;
+}
+
+.seccion_cursos h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+   grid-template-rows: repeat(4,300px);
+   gap:20px;
+   justify-content: center;
+}
+
+.card{
+    display: flex;
+    align-items: end;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgba(95, 159, 199, 0.823);
+    border-radius: 20px;
+}
+
+.cards div:nth-child(1){
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(img/1.png);
+}
+
+.cards div:nth-child(2){
+    grid-row: span 2;
+    background-image: url(img/2.png);
+}
+
+.cards div:nth-child(3){
+    grid-column: span 2;
+    background-image: url(img/3.png);
+}
+
+.cards div:nth-child(4){
+    background-image: url(img/4.png);
+}
+
+.cards div:nth-child(5){
+    background-image: url(img/5.png);
+}
+
+.cards div:nth-child(6){
+    grid-column: span 2;
+    background-image: url(img/6.png);
+}
+
+
